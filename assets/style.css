@@ -1,0 +1,20 @@
+/* .header {
+    display:inline;
+    background-color: aqua;
+    
+}
+
+.header-2 {
+    display: inline;
+    align-items: right;
+} */
+
+.section-1 {
+    background-color: aqua;
+    display: inline-block;
+  
+}
+.section-2{
+    background-color: blueviolet;
+    display: inline-block;
+}
