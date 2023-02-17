@@ -1,13 +1,10 @@
 
 
 .section-1 {
-    background-color: aqua;
-    display: inline-block;
-    padding-right: 725px;
+    display: flex;
+    align-items: center;
 }
 .section-2{
-    background-color: blueviolet;
-    display: inline-block;
 }
 form {
     display:table-caption
@@ -18,13 +15,19 @@ header, footer {
     background-color: blue;
     line-height: 100px;
     margin: 0px;
+    color: aliceblue;
 }
 
 ul{
     text-align: right;
-    font-size: ;
+;
 }
 li,h3 {
     display: inline;
     margin:10px;
+}
+
+img{
+    display: flex;
+    align-self: center;
 }
