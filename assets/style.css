@@ -1,13 +1,4 @@
-/* .header {
-    display:inline;
-    background-color: aqua;
-    
-}
 
-.header-2 {
-    display: inline;
-    align-items: right;
-} */
 
 .section-1 {
     background-color: aqua;
@@ -23,6 +14,18 @@ form {
     display:table-caption
 }
 
-header {
-    position: fixed;
+header, footer {
+    position: sticky;
+    background-color: blue;
+    line-height: 100px;
+    margin: 0px;
+}
+
+ul{
+    text-align: right;
+    font-size: ;
+}
+li,h3 {
+    display: inline;
+    margin:10px;
 }
