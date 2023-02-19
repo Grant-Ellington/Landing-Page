@@ -1,33 +1,49 @@
-
-
-.section-1 {
-    display: flex;
-    align-items: center;
-}
-.section-2{
-}
-form {
-    display:table-caption
-}
-
-header, footer {
-    position: sticky;
-    background-color: blue;
-    line-height: 100px;
+*{
     margin: 0px;
-    color: aliceblue;
+}
+header, footer{
+    background-color: green;
+    color: white;
+
 }
 
+nav{
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
 ul{
-    text-align: right;
-;
+    list-style: none;
+    text-align: end;
+    padding: 20px;
 }
-li,h3 {
-    display: inline;
-    margin:10px;
+li{
+    display:inline;
+    padding: 20px;
+    
 }
 
-img{
-    display: flex;
-    align-self: center;
+main {
+    background-color: beige;
+}
+
+.img img {
+    padding: 10px;
+    border: 10px;
+    margin:10px;
+    border-color: black;
+    border-style: solid;
+}
+
+h1{
+    text-align: center;
+}
+section{
+    text-align: center;
 }
